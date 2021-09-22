@@ -1,0 +1,5 @@
+{
+    "name": "Python Unit Test Template",
+    "description": "Template for executing python unit tests using unittest",
+    "iconName": "github"
+}
