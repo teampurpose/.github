@@ -29,4 +29,9 @@ jobs:
     - name: Test with unittest
       run: |
         cd lambda_test
-        python -m unittest
+        python -m xmlrunner -o /tmp/testReports
+    - name: Upload XML Report
+      uses: actions/upload-artifact@v2
+      with:
+        name: unittest-report
+        path: /tmp/testReports/
