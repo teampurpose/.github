@@ -1,0 +1,5 @@
+{
+    "name": "Code Security Scan - Java",
+    "description": "Template for executing java codeql security scan",
+    "iconName": "github"
+}
