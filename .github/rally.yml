@@ -36,7 +36,7 @@ rally:
   # Optional - Leave it commented or set to `Any` to allow from any
             # project in the workspace
   #projects:
-   -legos
+  # -legos
 
   #List of valid Rally objects to check
   objects:
