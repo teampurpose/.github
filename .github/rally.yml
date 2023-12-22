@@ -9,10 +9,10 @@ checkPRBody: true
 checkPRTitle: true
 
 # Check all commit messages for a Rally story/defect (true | false)
-checkCommitMessages: true
+checkCommitMessages: false
 
 # Set Rally Flow State to Complete on merge if the PR Body contains "/completes <DEFECT/STORY ID>"
-mergeOnPRBody: true
+mergeOnPRBody: false
 
 # Comment on the PR in addition to the check message? (true | false)
 commentOnPull: false
